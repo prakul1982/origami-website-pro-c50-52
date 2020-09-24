@@ -1,0 +1,132 @@
+
+h1{color:#345235;
+text-shadow: 2px 2px#123456; 
+text-decoration: underline;
+text-transform: uppercase;   
+font-style: italic;
+    margin-left:200 ;
+
+}
+
+.parent{
+display: flex;
+justify-content:space-evenly;
+flex-direction: column;}
+
+.camel{
+border: solid;
+display: flex;
+justify-content:space-between;
+color: #000000;
+background-color:#abcdef ;
+
+}
+
+.camel{
+position: relative;
+}
+
+.camel p{
+position: absolute;
+top: 30%;
+left: 61.5%;
+transform: translate(-50,-50);
+opacity: 0;
+color: red;
+font-size: 5ch;
+}
+
+.camel:hover p{
+opacity: 1;
+}
+
+
+.cameleons{
+border: solid;
+display: flex;
+justify-content:space-between;
+color: #000000;
+background-color:#abcdef ;
+
+}
+
+.cameleons{
+    position: relative;
+    }
+    
+    .cameleons p{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50,-50);
+    opacity: 0;
+    color: red;
+    font-size: 5ch;
+    }
+    
+    .cameleons:hover p{
+    opacity: 1;
+    }
+
+.teddy{
+border: solid;
+display: flex;
+justify-content:space-between;
+color: #000000;
+background-color:#abcdef ;
+}
+
+.teddy{
+    position: relative;
+    }
+    
+    .teddy p{
+    position: absolute;
+    top: 30%;
+    left: 58%;
+    transform: translate(-50,-50);
+    opacity: 0;
+    color: red;
+    font-size: 5ch;
+    }
+    
+    .teddy:hover p{
+    opacity: 1;
+    }
+
+h2{
+color: #235235;
+text-decoration: underline;
+text-transform: uppercase;  
+margin-top: 200px;
+}
+
+ol{
+color: #ac143f;
+text-transform: uppercase; 
+font-style: italic;
+}
+
+.header {border:solid ; 
+    background-color:#f2c4a0 ; 
+    display: flex;
+  font-style: italic;
+
+} 
+
+.header2{ 
+    background-color:#f2c4a0 ; 
+    display: flex;
+justify-content:space-evenly;
+flex-direction: column;
+margin-left: 1180px;
+} 
+
+p{
+    border: solid;
+    text-transform: uppercase;  
+
+}
+
+a:link{color: #574578;}
+a:visited{color: aqua;}
